@@ -17,6 +17,14 @@ var routes = [
 
     {
         method: 'GET',
+        path: '/login',
+        handler: function(request, reply) {
+            reply.reactview('login');
+        }
+    },
+
+    {
+        method: 'GET',
         path: '/help',
         handler: function(request, reply) {
             reply.reactview('help');
