@@ -1,0 +1,15 @@
+/*
+* This file contains the passwords for generating encrypted cookies.
+* These passwords are web-apscific and are generated randomly during the creation
+* of the web-app by "itsa-cli create {webapp}".
+*
+* NEVER CHANGE these passwords: it will lead into invalid encryption of clients who have their cookies set.
+* If you still feel you need to, then ensure that the passwords are at the least 32 characters.
+*/
+
+module.exports = {
+    'app-authentication': ')Om86YHR:\DDU(%%dQEExuh7$x.hJ=&7"iy+>/({',
+    'body-data-attr': 'OvRVg,G$[[G@E~TnDJ<.][s2/SE&n,S0sy$vCnfq',
+    'not-exposed': 'wP?|Gj5ux(uW&+yXu@,D5\)^suw{g6iurHAmEwo+',
+    'props': '(t7sZz_}5hrNic(=e8^3wd(x?U;i+J!3m:g|:\me'
+};
